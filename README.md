@@ -22,7 +22,7 @@ _**Each Json Object has the following features:**_
 
 The data was gathered from the group [AUB COURSES/TEACHERS GURU](https://www.facebook.com/groups/126553607367124) using a [Facebook Web Scraper](https://github.com/fjg00/Facebook-Group-Post-Scraper) that was developed specifically for this task.
 
-# Implementation Description
+# Implementation 
 
 ## Assumptions
 Both models assume that all inputs they receive are in the form of formal english sentences. They also assume that the question asked is covered by the Chatbot's knowledgebase.

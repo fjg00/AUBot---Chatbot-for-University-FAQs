@@ -17,7 +17,7 @@ You will also need to have software installed to run and execute a [Jupyter Note
 - Press run all
 
 # Data
-The dataset covers 45 different intents (45 json objects) that the chatbot can answer. Most notably, it includes questions related to opening hours of different offices, registration, ordering transcripts, and basic greetings.
+The dataset covers 45 different intents (45 json objects) that the chatbot can answer.It includes questions related to opening hours of different offices, registration, ordering transcripts, and basic greetings.
 
 _**Each Json Object has the following features:**_
 1.  `tag`: The title of the intent.
@@ -28,7 +28,7 @@ _**Each Json Object has the following features:**_
 # Implementation Description
 
 ## Assumptions
-This model assumes that all inputs it receives are in the form of formal english sentences. It also assumes that the uqestion asked is covered by the Chatbot's knowledgebase.
+This model assumes that all inputs it receives are in the form of formal english sentences. It also assumes that the question asked is covered by the Chatbot's knowledgebase.
 
 ## Preprocessing
 The preprocessing procedure that was followed for the DNN model includes the following:

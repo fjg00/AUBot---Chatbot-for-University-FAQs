@@ -1,0 +1,83 @@
+Start talking with AUBot (type quit to stop)! [This is also found at the end of the .ipynb file]
+
+You: what's up?
+
+AUBot:
+Hello! how are doing today?
+
+You: how are you doing?
+
+AUBot:
+Hello! how are doing today?
+
+You: what's your name?
+
+AUBot:
+Good to see you again!
+
+You: what are you?
+
+AUBot:
+Hi there, how can I help?
+
+You: What does a negative value mean on the web statement of fees?
+
+AUBot:
+Fall Courses Discount (Financial Aid). Note that this is not the finalized Web Statement of fees.
+
+You: does financial aid cover the summer semester?
+
+AUBot:
+If you ask nicely maybe 
+
+You: when does the registrar open?
+
+AUBot:
+You have to take an appointment if it's not an emergency case. Call ext. 3000
+
+You: how do I submit a petition
+
+AUBot:
+Google 'aub petitions' and it should be the first link you see
+
+You: my web statement of fees is not updated although I paid
+
+AUBot:
+Contact Comptroller's Office at Ext. 2473-2980, or by email at compt_sas@aub.edu.lb
+
+You: how do I get payment from the work study program
+
+AUBot:
+The aub office sends an email to all students for when they need to apply for the work study program. Click the link in that email and fill the application form.
+
+You: where can I find the financial aid application
+
+AUBot:
+Use your AUBsis to access the application under 'Student Awards and Financial Aid'. The application should be there. After submitting, you must hand in the documents in person at the F-Aid office at AUB.
+
+You: when can I see my financial aid result
+
+AUBot:
+The online application for AY 2020-21 will be available starting February 10, 2020 and the deadline to submit the hard copy and the required documents is May 29, 2020.
+
+You: when does jafet library open
+
+AUBot:
+Jafet Library Computer labs and Reading areas are open Monday - Friday: 07:30 AM - 09:00 PM, Saturday: 08:00 AM - 05:00 PM, Sunday: Noon - 08:00 PM
+
+You: when are the opening hours of the gym
+
+AUBot:
+AUB Bookstore is open Monday to Friday, 8:00 am till 5 pm.
+
+You: okay thank you
+
+AUBot:
+Talk to you later!
+
+You: have a good day
+
+AUBot:
+Talk to you later!
+
+You: quit

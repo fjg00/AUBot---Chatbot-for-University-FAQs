@@ -13,7 +13,7 @@ This project requires **Python** and the following Python libraries installed:
 You will also need to have software installed to run and execute a [Jupyter Notebook](http://jupyter.org/install.html).
 
 # Data
-The dataset covers 45 different intents (45 json objects) that the chatbot can answer.It includes questions related to opening hours of different offices, registration, ordering transcripts, and basic greetings.
+The dataset covers 45 different intents (45 json objects) that the chatbot can answer. It includes questions related to opening hours of different offices, registration, ordering transcripts, and basic greetings.
 
 _**Each Json Object has the following features:**_
 1.  `tag`: The title of the intent.
@@ -50,4 +50,4 @@ For the LSTM model:
   
   
 ## Results
-Both models were providing accurate results, however, the DNN model, surprisingly, had a much higher accuracy compared to the LSTM model. The accuracy and loss curves can be found in the report pdf file.
+Both models were providing accurate results, however, the DNN model, surprisingly, had a much higher [accuracy](https://github.com/fjg00/AUBot/tree/main/Figures) compared to the LSTM model. The accuracy and loss curves can also be found in the [report file](https://github.com/fjg00/AUBot/blob/main/Project%20Report.pdf).

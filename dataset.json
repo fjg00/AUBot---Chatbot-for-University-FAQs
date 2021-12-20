@@ -1,0 +1,690 @@
+{ "intents" : [
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "helloz",
+            "heyy",
+            "hello",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "Whats up",
+            "hey"
+    ],
+        "responses": [
+            "Hello! how are doing today?",
+            "Good to see you again!",
+            "Hi there, how can I help?"
+        ]
+    },
+    {
+        "tag": "doing",
+        "patterns": [
+            "how are you",
+            "how are you doing"
+    ],
+        "responses": [
+            "im GREAT, how can i help you?",
+            "I am doing just fine. Please ask me some question."
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "bye",
+            "cya",
+            "See you later", 
+            "Goodbye",
+            "Good bye",
+            "I am leaving",
+            "Have a Good day",
+            "peace"
+    ],
+        "responses": [
+            "have a good one",
+            "Talk to you later!",
+            "Goodbye!"
+    ]
+    },
+    {   
+        "tag": "name",
+        "patterns": [
+            "what is your name",
+            "what should I call you",
+            "whats your name?"
+    ],
+        "responses": [
+            "You can call me AUBot.",
+            "I'm AUBot!",
+            "The name's Bot. AUBot."
+        ]
+    },
+    {   "tag": "job",
+        "patterns": [
+            "what do you do",
+"what can i ask you",
+"what can you answer",
+"what do you know",
+"about what can i ask you",
+"Is there anything I can ask you?",
+"what questions do you take?",
+"what questions can I ask you?",
+"Can I ask you any questions?"
+    ],
+        "responses": [
+            "i can answer AUB related questions relavant to transcripts, financial aid, capacities, petitions, registration, transfer, and work study."
+        ]
+    },
+    {   "tag": "thanks",
+        "patterns": [
+            "Thanks",
+            "thank you!",
+            "ty",
+            "okay thank you!"
+    ],
+        "responses": [
+            "dont mention it :)",
+            "my pleasure. have a good day!",
+            "You are very welcome."
+        ]
+    },
+    {
+        "tag": "minor",
+        "patterns": [ 
+           "How can I apply for a minor",
+            "How do I fill a form for a minor?",
+            "Where is the form to apply for a minor?" ,
+            "How do I apply for a minor?", 
+            "What is the procedure for fulfilling a minor?", 
+            "Do I have to apply for a minor?",
+"How do I go about applying for a minor?", 
+"Where is the minor application form located?",
+"Where is the minor application?",
+"Where can I find the minor application form?",
+"Where can I find the minor application?",
+"Where can the minor application form be found?",
+"Where can the application for a minor be found?",
+"Where is the minor application located?",
+"Where is the minor application?",
+"Where can I find the minor application form?",
+"Where can I find the minor application?",
+"Where can the minor application form be found?",
+"Where can the application for a minor be found?",
+"What is the procedure for obtaining a minor?"
+        ],
+        "responses": ["Check the required courses for the minor using https://www.aub.edu.lb/fas/Documents/Minor-requirements.pdf\nGo to https://epetitions.aub.edu.lb/ords/f?p=101:101:::::: \n Fill and submit 'Intention to Fulfill a Minor' request via the Online Petition Form System (OPFS) "]
+    },
+    {
+        "tag": "financial aid application",
+        "patterns":[ 
+		   
+ "When can we apply for financial aid for this year?",
+		    "When do we apply for financial aid during the next semester?",
+            "When can I submit a financial aid application?",
+            "When can I start filling a financial aid application?",
+"When will we be able to apply for financial help for this year?" ,
+"When will we be able to apply for financial aid for this year?" ,
+"When will we be able to apply for financial support for this year?" ,
+"When do we apply for financial help for the following semester?",
+"When do we apply for financial aid for the following semester?",
+"When do we apply for financial support for the following semester?",
+"When will I be able to submit a financial aid application?",
+"When will I be able to submit a FAID application?",
+ "When can we apply for FAID for this year?",
+		    "When do we apply for FAID during the next semester?",
+            "When can I submit a FAID application?",
+            "When can I start filling a FAID application?",
+"When do we apply for FAID for the following semester?",
+"When do we usually apply for financial aid?",
+"When do we apply for for financial aid?"
+	],
+        "responses": [
+            "The online application for AY 2020-21 will be available starting February 10, 2020 and the deadline to submit the hard copy and the required documents is May 29, 2020."
+        ]
+    },
+    {
+        "tag": "Jafet Library Opening Hours",
+        "patterns":[
+	      "When are the opening hours of Jafet today?",
+"What are Jafet's opening hours",
+"Jafet's opening hours",
+"What are Jafet's opening hours",
+"When are the opening hours of Jafet today?",
+"What are Jafet opening hours today?",
+"What time does Jafet open today?",
+"What time does Jafet open?",
+"What time does Jafet usually open?",
+"When are the opening hours of Jafet library today?",
+"What are Jafet library's opening hours",
+"Jafet library's opening hours",
+"What are Jafet library's opening hours",
+"When are the opening hours of Jafet library today?",
+"What are Jafet library's opening hours today?",
+"What time does Jafet library open today?",
+"What time does Jafet library open?",
+"What time does Jafet library usually open?"
+	    ],
+        "responses": [
+	   "Jafet Library Computer labs and Reading areas are open Monday - Friday: 07:30 AM - 09:00 PM, Saturday: 08:00 AM - 05:00 PM, Sunday: Noon - 08:00 PM"
+	    ]
+    },
+    
+    {
+        "tag": "apply financial aid4",
+        "patterns": [
+		    "How can I apply for financial aid?",
+		    "How do I apply for financial aid?",
+		    "How to apply for financial aid online?",
+		    "Where can I access the financial aid application?"
+	],
+        "responses": [
+            "Access AUBsis as you usually would using your AUB net login, \n Click on Student Schedule or Registration \n Choose Student Award and Financial Aid Tab \nClick on Apply for Student Aid\nFill the application and, before submitting it online, make a printout of your completed online application.\nClick on Submit in order to have the online application loaded to the financial aid system.\nSubmit the hard copy along with a passport-size photograph and all the required documents to the Financial Aid Office IN PERSON prior to the deadline. \nApplications with missing information and/or missing documents will be considered incomplete and hence will not be evaluated."
+        ]
+    },
+    {
+        "tag": "academic transcript2",
+        "patterns": [
+             "If we order academic transcript online from aubsis, can we get a pdf of them or should we go on campus to get them",
+             "order academic transcript as pdf",
+             "how can I order the academic transcript as pdf ?",
+             "is there an option to get the academic transcript as a pdf"
+        ],
+        "responses": [
+            "You can email the registrar and ask them to scan the papers for you.",
+            "if you need an official transcript sent somewhere you can have it sent as an e-transcript by email."
+        ]
+    },
+    {
+        "tag": "academic transcript7",
+        "patterns": [
+            "How can I get my unofficial transcript from AUB",
+            "How can i get my academic transcript as a pdf?",
+            "How can I order my academic transcript as a pdf",
+            "soft copy academic transcript",
+            "order academic trasncript as pdf",
+            "How do I get a soft copy of my Academic Transcript?"
+        ],
+        "responses": [
+            "You can just save the website page of ur transcript on ur desktop and then attach it. Using chrome, just right click and click \"save as\" or \"print\".",
+            "CTRL+P to save your chrome page as pdf. This is considered an unofficial academica transcript",
+            "click your brower settings button and then \"print\". you can then choose to save the page as a PDF."
+        ]
+    },
+    {
+        "tag": "academic transcript9",
+        "patterns": ["Can anyone explain to me the difference between cumulative and overall GPA in the academic transcript?",
+                     "What is the difference between cumulative and overall GPA",
+                     "What is cumulative GPA",
+                     "What is overall GPA",
+                     "What is overall GPA",
+                     "what does cumulative GPA  mean",
+                     "What does overall GPA mean"
+        ],
+        "responses": [
+            "Basically, Cumulative gpa: grades of all courses you have already compeleted from your current major (even non-major courses). Overall GPA includes the weighted average of your current major gpa and your past major (considering you transferred majors)."
+        ]
+    },
+    {
+        "tag": "academic transcript11",
+        "patterns": [
+            "Is it possible to request an official academic transcript online?",
+            "how can i order an academic transcript online?",
+            "online academic transcript",
+            "order academic transcript online",
+            "how to order an academic transcript online",
+            "request an academic transcript online",
+            "Could I request online the academic transcript? and how?"
+        ],
+        "responses": [
+            "Via aub sis, you pay via credit card and you can pick it up, or have it sent to you",
+            "You can through sis and you dont have to pick it up in person. either send through physical mail, or you might be able to ask them for an online scan."
+        ]
+    },
+    {
+        "tag": "academic transcript13",
+        "patterns":[
+            "does anyone know how to save an academic transcript so I could attach it to my online petition?",
+            "unofficial acadmic transcript",
+            "print unofficial acadmic transcript",
+            "where to get an unofficial academic transcript",
+            "how to print academic transcript",
+            "save academic transcript",
+            "print my acadmic transcript"
+        ],
+        "responses": [
+            "You can just save the website page of ur transcript on ur desktop and then attach it. Using chrome, just right click and click \"save as\".",
+            "CTRL+P to save your chrome page as pdf. This is considered an unofficial academica transcript, and use it.",
+            "click your brower settings button and then \"print\". you can then choose to save the page as a PDF. then attach it normally"
+        ]
+    },
+    {
+        "tag": "academic transcript17",
+        "patterns": ["There's a course that disappeared from my academic transcript",
+                      "a course was not added to my academic transcript",
+                      "course not found on my academic",
+                      "a course was removed from my academic transcript"
+        ],
+        "responses": [
+            "it can happen sometimes, email the registrar. or give it sometime and it may reappear."
+        ]
+    },
+    {
+        "tag": "academic transcript19",
+        "patterns": ["From where can I get my official academic transcript and how much time does it need for them to prepare it?",
+                        "how can I order an official academic transcript",
+                        "how do I contact to order an offficial academic transcript"
+        ],
+        "responses": [
+            "you should request it from your student profile on your aubsis account or from the registrar in person. it usually takes 3 bussiness days to finish.",
+            "you can request it from the registrar's office and you pay them there. they'll email you when its done. takes 3-5 working days. you can also request it from your AUBsis student profile"
+        ]
+    },
+    {
+        "tag": "academic transcript20",
+        "patterns":[
+            "Who should I talk to/send an email to if I have problems with my Academic transcript on sis?",
+            " I have a problem with my academic transcript, who should I contact"
+        ],
+        "responses": [
+            "the registrar is your best help.",
+            "Registrar's office. call, email, or go to them in person and they'll help."
+        ]
+    },
+    {
+        "tag": "apply financial aid1",
+        "patterns": [
+            "Where can I view my financial aid?",
+"Where can I check how much financial aid I currently have?",
+"how can I see my financial aid result ?",
+"Where can I check my current financial aid",
+"How can I find out about my present financial aid?",
+"Where can I see my financial aid?",
+"Where can I check my financial aid?",
+"Where can I check my financial aid status?",
+"Where can I see my financial aid status?",
+"Where can I view my financial aid status?",
+ "Where can I view my FAID?",
+"Where can I check how much FAID I currently have?",
+"how can I see my FAID result ?",
+"Where can I check my current FAID?",
+"How can I find out about my present FAID?",
+"Where can I see my FAID?",
+"Where can I check my FAID?",
+"Where can I check my FAID status?",
+"Where can I see my FAID status?",
+"Where can I view my FAID status?"
+	    ],
+        "responses": [
+            "Go to aubsis, press the last tab in the middle \"Student Awards and Financial Aid\", and then 'view my student aid'. it should be there."
+        ]
+    },
+    {
+        "tag": "apply financial aid2",
+        "patterns":[ 
+		    "When can we apply for financial aid for this year?",
+		    "When do we apply for financial aid during the next semester?",
+        "When can we apply for financial aid for this year?",
+        "When can I start filling a financial aid application?",
+        "When does the financial aid application come out"
+	],
+        "responses": [
+            "The online application for year 2022-23 will be available starting February 10.",
+            "when you ask for an application and receive the mail for it, you would have 30 days to complete it.",
+            "you need to do it before your web statement of fees is processed."
+        ]
+    },
+    {
+        "tag": "apply financial aid4",
+        "patterns": [
+		    "How can I apply for financial aid?",
+		    "How do I apply for financial aid?",
+		    "How to apply for financial aid online?",
+		    "Where can I access the financial aid application?"
+	],
+        "responses": [
+            "Access AUBsis as you usually would using your AUB net login \nClick on Student Awards and Financial Aid \nClick on Apply for Student Aid \nFill the application and, before submitting it online, make a printout of your completed online application. \nClick on Submit in order to have the online application loaded to the financial aid system. \nSubmit the hard copy along with a passport-size photograph and all the required documents to the Financial Aid Office IN PERSON prior to the deadline. \nApplications with missing information and/or missing documents will be considered incomplete and hence will not be evaluated.",
+            "Go to AUBsis, press the last tab in the middle \"Student Awards and Financial Aid\", and then 'apply for student aid'. There you put in all the requirements and then submit the required documents in person at the financial aid's office in West hall.",
+            "Use your AUBsis to access the application under 'Student Awards and Financial Aid'. The application should be there. After submitting, you must hand in the documents in person at the F-Aid office at AUB."
+        ]
+    },
+    {
+        "tag": "apply financial aid6",
+        "patterns": [
+            "I have already received Financial Aid for the fall semester, shall i re-apply for the spring semester or it's once per year?",
+            "Do I have to apply for financial aid more than once?",
+            "Do i have to reapply for financial aid for next semester?",
+            "Do I have to apply for financial aid again next semester?",
+            "if i applied financial aid for fall and i got it, do i need to re-apply for spring?"
+	],
+        "responses": [
+            "You financial aid will be renewed automatically, so there is no need for you to apply again"
+        ]
+    },
+    {
+        "tag": "apply financial aid8",
+        "patterns": [
+	        "How can I know the result of financial aid?",
+            "When will the financial aid results be out?",
+ 	        "when will I be informed of the result of financial aid?",
+            "When is the financial aid result"
+	],
+        "responses": [
+            "The Office of Financial Aid will send you an email once their decision is taken."
+        ]
+    },
+    {
+        "tag": "apply financial aid14",
+        "patterns": [
+	        "Does financial aid cover the cost of any courses I plan to take in the summer",
+            "Does financial aid cover the summer semester?",
+            " Can I receieve financial aid for the summer semester ?",
+            "Does financial aid cover the summer semester ?",
+            "Can I benefit from financial aid during the summer semester?"
+	],
+        "responses": [
+            "Engineering students can only benefit from financial aid during the summer semester",
+            "If you ask nicely maybe "
+        ]
+    },
+    {
+        "tag": "apply financial aid15",
+        "patterns": [
+	        "How can I apply a petition for Financial aid ? ",
+	        "How can I increase my financial aid?",
+	        "How do I submit a petition for financial aid?",
+            "How can I submit a petition to increase my financial aid?",
+            "How can I increase the percentage of financial aid ? "
+	],
+        "responses": [
+            "Use this link to access",
+            "well you have to explain your case well and try to be convincing ! show them that you really need a FA or a higher percentage"
+        ]
+    },
+    {
+        "tag": "apply financial aid21",
+        "patterns": [
+		    "Is it possible to apply for a deferred payment and still receive financial aid?",
+		    "Will I still receive financial aid if I apply for a deferred payment?",
+            "Does the defered payment affect financial aid ?"
+	],
+        "responses": [
+            "These are two completely separate things"
+        ]
+    },
+    {
+        "tag": "Opening Hours1",
+        "patterns":[ 
+            "What are the ID Center’s opening hours?",
+"ID Center’s opening hours?",
+"What are ID Center's opening hours",
+"ID Center opening hours?",
+"What are the opening hours of SML today?",
+	        "When are the ID Center's opening hours",
+	        "ID Center opening hours",
+"What are ID Center 's opening hours",
+"When are the opening hours of the ID Center today?",
+"What time does the ID center open?"
+	],
+        "responses": [
+		    "the ID center is open Monday to Friday From 8:00 am till 1:00 pm, their office is in ​Fisk Hall, Ground floor​."
+	]
+    },
+    {
+        "tag": "Opening Hours2",
+        "patterns": [ 
+		    "Are The Cashier and Students’ Section offices open? And if so what are the opening hours?",
+		    "What are the Registrar's Opening hours?",
+	        "Is the registrar's office open? And if so what are the opening hours?",
+		    "What are the registrar opening hours today?"
+	],
+        "responses": [
+            "Registrar, Cashier and Comptroller's offices are from 8 a.m. to 4 p.m. M-F outside of holidays."
+        ]
+    },
+    {
+        "tag": "Opening Hours3",
+        "patterns": [ 
+            "What are the opening hours of Charles Hostler Gym nowadays?",
+		    "Opening hours of Charles Hostler Gym",
+		    "What are the gym opening hours for summer?",
+		    "What are Hostler (gym) and Jafet's opening hours tomorrow ?",
+		    "Opening hours of the Gym"
+        ],
+        "responses": [
+            "CHSC opening hours are Monday to Friday from 7:00am till 7:00pm and Saturday from 9am till 5pm. Note that the gym is closed on Sundays."
+		
+        ]
+    },
+    {
+        "tag": "Opening Hours6",
+        "patterns": [ "What are SML's opening hours",
+	    "SML opening hours?",
+        "What are the opening hours of SML today?",
+	   "When are the SML's opening hours",
+	   "SML opening hours",
+       "What are SML's opening hours",
+       "When are the opening hours of the SML today?"
+        ],
+        "responses": [
+            "SML is open Monday - Friday: 08:00 AM - 10:30 PM, Saturday: 08:00 AM - 05:00 PM, Sunday: Noon - 09:00 PM"
+        ]
+    },
+    {
+        "tag": "Opening Hours12",
+        "patterns": [
+	    "What are AUB Bookstore's opening hours",
+	    "Bookstore opening hours?",
+        "When are the opening hours of the aub bookstore today?",
+	    "When are the bookstore's opening hours",
+	    "Bookstore opening hours",
+        "AUB bookstore opening hours",
+        "What are aub bookstore's opening hours",
+        "When are the opening hours of the bookstore today?"
+	],
+        "responses": [
+            "AUB Bookstore is open Monday to Friday, 8:00 am till 5 pm."
+        ]
+    },
+    {
+        "tag": "Opening Hours14",
+        "patterns":[
+	  "What are the hours of operation for Jafet?",
+"What are Jafet's hours of operation?",
+"When will Jafet be open?",
+"When are the opening hours of Jafet today?",
+"What are Jafet's opening hours",
+"Jaffet's opening hours",
+"What are Jaffet's opening hours?",
+"When are the opening hours of Jafet today?",
+"Jaffet's hours of operation",
+"What are the hours of operation for Jafet library?",
+"What are Jafet library's hours of operation?",
+"When will Jafet library be open?",
+"When are the opening hours of Jafet library today?",
+"What are Jafet library's opening hours",
+"Jafet library's opening hours",
+"What are Jaffet library's opening hours?",
+"When are the opening hours of Jafet library today?",
+"Jafet library's hours of operation",
+"What time does Jafet open?",
+"What time does Jafet library open?",
+"Can you tell me what time Jaffet opens?",
+"Could you please inform me when Jafet opens?",
+"Could you please inform me when Jafet library opens?"
+	],
+        "responses": [
+	   "Jafet Library Computer labs and Reading areas are open Monday - Friday: 07:30 AM - 09:00 PM, Saturday: 08:00 AM - 05:00 PM, Sunday: Noon - 08:00 PM"
+	]
+    },
+    {
+        "tag": "Opening Hours17",
+        "patterns": ["What are the opening hours of the aub infirmary?",
+                    "aub infirmary opening hours",
+                    "when does the aub infirmary open",
+                    "opening hours of aub infirmary"
+        ],    
+        "responses": [
+            "You have to take an appointment if it's not an emergency case. Call ext. 3000"
+        ]
+    },
+    {
+        "tag": "petition1",
+        "patterns": [
+            "Can we petition to pause the semester?",
+            "Skip a semester",
+            "pause a semester",
+            "how can I petition to pause a semester"
+        ],
+        "responses": [
+            "suck it up, and manage your time well. stop delaying things and procrastinating and then blame the semester."
+        ]
+    },
+    {
+        "tag": "petition2",
+        "patterns": [
+            "where do we submit our petitions?",
+            "where can we do petitions?",
+            "Where can I submit a petition ?",
+            "How do I submit a petition? ",
+            "how do we submit petitions?"
+        ],
+        "responses": [
+            "go to the following link: https://epetitions.aub.edu.lb/.",
+            "Google 'aub petitions' and it should be the first link you see"
+        ]
+    },
+    {
+        "tag": "petition4",
+        "patterns": [
+            "when would I get back my petition results?",
+            "how long do petitions take to finish?",
+            "how much time does it take for a petition to return?",
+            "When can I see my petition results ?",
+            "When do petition results come out"
+        ],
+        "responses": [
+            "general petitions usually take 2-3 working days, and you get an email after it's done.",
+            "after the list of responsible faculty members see it all, and they accept or reject it."
+        ]
+    },
+    {
+        "tag": "petition5",
+        "patterns": [
+            "how do i check petition answer?",
+            "how do i see the petition results?",
+            "where can I check the petition results",
+            "petition results",
+            "where can I view the petition results? "
+        ],
+        "responses": [
+            "in the same place you submitted it, there would be a 'pending requests' tab with your current waiting petitions. click on the one you choose and check what process it is under.",
+            "the system will send you and email as soon as you get the final answer. you can track it on the petition website."
+        ]
+    },
+    {
+        "tag": "Web Statement of Fees3",
+        "patterns": ["What does a negative value on web statement of fees mean",
+                    "negative number on web statement of fees",
+                    "negative value on statement of fees",
+                    "negative number on statement of fees"
+        ],
+        "responses": [
+            "It is for financial aid, what you have removed. The statement will update later.",
+            "Fall Courses Discount (Financial Aid). Note that this is not the finalized Web Statement of fees."
+        ]
+    },
+    {
+        "tag": "Web Statement of Fees4",
+        "patterns": [
+             "I paid my fees, but my web statement of fees shows that I did not pay. ",
+		     "My web statement of fees shows that I have not paid my tuition fees even though I did",
+		     "How long does it take for the Web Statement of Fees to update?",
+		     "I paid for my courses but my Web Statement of fees still has the amount due on record",
+             "paid the amount due but web statement of fees still did not update",
+             "web statement of fees did not update"
+	],
+        "responses": [
+            "Dont worry it takes about a week or less",
+            "Wait for 4-5 days for the comptroller to process payment, if it doesn't show, contact them at Ext. 2473-2980, or by email at compt_sas@aub.edu.lb",
+            "Check with the Comptroller's at AUB College hall. Usually take a week to update.",
+            "It usually takes up to a week for the money to by processed by AUB. Check AUBsis after 5 business days"
+        ]
+    },
+    {
+        "tag": "Web Statement of Fees5",
+        "patterns": [
+            "who can i contact if the web statement of fees is still not showing?",
+            "can't view my web statement of fees",
+            "web statement of fees not showing"
+        ],
+        "responses": [
+            "Contact Comptroller's Office at Ext. 2473-2980, or by email at compt_sas@aub.edu.lb"
+        ]
+    },
+    {
+        "tag": "work study2",
+        "patterns": ["How do we apply for the student work study program?",
+            "how to apply for work study",
+            "apply for work study",
+            "how do I enroll in the work study program ?",
+            "When does the work study application start?",
+            "how do I apply for the work study program ? "
+        ],
+        "responses": [
+            "The aub office sends an email to all students for when they need to apply for the work study program. Click the link in that email and fill the application form."
+        ]
+    },
+    {
+        "tag": "work study11",
+        "patterns":[
+            "If i'm employed at the university as part of the work-study program, do i need to submit my bank account information or can i get paid via check?",
+            "how do I receive payment for the work study program ?",
+            "how will I receive payment from the work study program",
+            "where will I receive my work study salary"
+        ],
+        "responses": [
+            "You have to submit your IBAN number to the comptroller office",
+            "If you haven't already provided an IBAN in your application, go to college hall, second floor, comptroller office and they will give you a form to fill it. N.B : the IBAN is provided by the bank."
+        ]
+    },
+    {
+        "tag": "work study20",
+        "patterns": [
+            "When do we hear back about work study if we've applied?",
+            "who can I contact for the work study application",
+            "When do i receive a reply for work study"
+        ],
+        "responses": [
+            "Not before the application close date.",
+            "Sometimes they respond at the end of the semester. Go to Mrs. Ramza at third floor in the west hall and ask.her about it, she might help you get your application work at the time."
+        ]
+    },
+    {
+        "tag": "work study30",
+        "patterns": [
+            "Is there any way to cancel an work study application?",
+            "cancel my work study application",
+            "don't want work study anymore",
+            "cancel my work study application"
+        ],
+        "responses": [
+            "For the work study application, if you don't show up to the meeting or don't reply for (maybe) 3 days, they give the job to someone else."
+        ]
+    },
+    {
+        "tag": "work study31",
+        "patterns": [
+            "How much is the work study program currently giving per hour?",
+            "What is the work study salary?",
+            "How much do we get for the work study program?",
+            "what is the hourly pay rate for work study program?",
+            "work study salary",
+            "how much is the work study program salary"
+        ],
+        "responses": [
+            "Currently, they are giving from 13,000 to 16,000 L.L per hour, usually either to remove from tuition, or to get it cash. Some jobs have more money but you get them removed from tuition."
+        ]
+    }
+]   
+}

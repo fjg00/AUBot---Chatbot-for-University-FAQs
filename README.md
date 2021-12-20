@@ -12,10 +12,6 @@ This project requires **Python** and the following Python libraries installed:
 
 You will also need to have software installed to run and execute a [Jupyter Notebook](http://jupyter.org/install.html).
 
-### Run
-- Upload the file on Jupyter Notebooks/ Google colab a long with the dataset.
-- Press run all
-
 # Data
 The dataset covers 45 different intents (45 json objects) that the chatbot can answer.It includes questions related to opening hours of different offices, registration, ordering transcripts, and basic greetings.
 

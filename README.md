@@ -49,5 +49,5 @@ For the LSTM model:
   - 1 fully connected tflearn layer with softmax activation function
   
   
-## Results
+# Results
 Both models were providing accurate results, however, the DNN model, surprisingly, had a much higher [accuracy](https://github.com/fjg00/AUBot/tree/main/Figures) compared to the LSTM model. The accuracy and loss curves can also be found in the [report file](https://github.com/fjg00/AUBot/blob/main/Project%20Report.pdf).

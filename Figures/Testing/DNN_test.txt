@@ -1,0 +1,119 @@
+Start talking with AUBot (type quit to stop)! [This is also found at the end of the .ipynb file]
+
+You: what's up
+
+AUBot: 
+Hello! how are doing today?
+
+You: how are you doing
+
+AUBot: 
+I am doing just fine. Please ask me some question.
+
+You: what's your name
+
+AUBot: 
+You can call me AUBot.
+
+You: what can I ask you
+
+AUBot: 
+i can answer AUB related questions relavant to transcripts, financial aid, capacities, petitions, registration, transfer, and work study.
+
+You: what does a negative value mean on the web statement of fees
+
+AUBot: 
+It is for financial aid, what you have removed. The statement will update later.
+
+You: does financial aid cover the summer semester
+
+AUBot: 
+If you ask nicely maybe 
+
+You: when does the registrar open
+
+AUBot: 
+Registrar, Cashier and Comptroller's offices are from 8 a.m. to 4 p.m. M-F outside of holidays.
+
+You: how do I submit a petition
+
+AUBot: 
+go to the following link: https://epetitions.aub.edu.lb/.
+
+You: my web statement of fees is not updated even though I paid
+
+AUBot: 
+Check with the Comptroller's at AUB College hall. Usually take a week to update.
+
+You: how do i get payment from the work study program
+
+AUBot: 
+Currently, they are giving from 13,000 to 16,000 L.L per hour, usually either to remove from tuition, or to get it cash. Some jobs have more money but you get them removed from tuition.
+
+You: where can I find the financial aid application
+
+AUBot: 
+The online application for AY 2020-21 will be available starting February 10, 2020 and the deadline to submit the hard copy and the required documents is May 29, 2020.
+
+You: where can I see my financial aid result
+
+AUBot: 
+Go to aubsis, press the last tab in the middle "Student Awards and Financial Aid", and then 'view my student aid'. it should be there.
+
+You: when does jafet library open
+
+AUBot: 
+Jafet Library Computer labs and Reading areas are open Monday - Friday: 07:30 AM - 09:00 PM, Saturday: 08:00 AM - 05:00 PM, Sunday: Noon - 08:00 PM
+
+You: when are the opening hours of the gym
+
+AUBot: 
+CHSC opening hours are Monday to Friday from 7:00am till 7:00pm and Saturday from 9am till 5pm. Note that the gym is closed on Sundays.
+
+You: okay thank you
+
+AUBot: 
+dont mention it :)
+
+You: have a good day
+
+AUBot: 
+Goodbye!
+
+You: quit
+You: how do I get payment from the work study program
+
+AUBot:
+The aub office sends an email to all students for when they need to apply for the work study program. Click the link in that email and fill the application form.
+
+You: where can I find the financial aid application
+
+AUBot:
+Use your AUBsis to access the application under 'Student Awards and Financial Aid'. The application should be there. After submitting, you must hand in the documents in person at the F-Aid office at AUB.
+
+You: when can I see my financial aid result
+
+AUBot:
+The online application for AY 2020-21 will be available starting February 10, 2020 and the deadline to submit the hard copy and the required documents is May 29, 2020.
+
+You: when does jafet library open
+
+AUBot:
+Jafet Library Computer labs and Reading areas are open Monday - Friday: 07:30 AM - 09:00 PM, Saturday: 08:00 AM - 05:00 PM, Sunday: Noon - 08:00 PM
+
+You: when are the opening hours of the gym
+
+AUBot:
+AUB Bookstore is open Monday to Friday, 8:00 am till 5 pm.
+
+You: okay thank you
+
+AUBot:
+Talk to you later!
+
+You: have a good day
+
+AUBot:
+Talk to you later!
+
+You: quit

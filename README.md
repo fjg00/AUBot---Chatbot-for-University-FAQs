@@ -20,7 +20,7 @@ _**Each Json Object has the following features:**_
 2. `patterns`:Example/training examples for this intent.
 3. `responses`: Output of the chatbot once it identifies this intent.
 
-The data was gathered from the group [AUB COURSES/TEACHERS GURU](https://www.facebook.com/groups/126553607367124) using a [Facebook Web Scraper](https://github.com/fjg00/Facebook-Group-Post-Scraper) that was developed specifically for this task.
+The data was gathered from the group [AUB COURSES/TEACHERS GURU](https://www.facebook.com/groups/126553607367124) using a [Facebook Web Scraper](https://github.com/fjg00/Facebook-Group-Post-Scraper) that was specifically developed for this task.
 
 # Implementation 
 

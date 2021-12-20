@@ -24,11 +24,12 @@ _**Each Json Object has the following features:**_
 2. `patterns`:Example/training examples for this intent.
 3. `responses`: Output of the chatbot once it identifies this intent.
 
+The data was gathered from the group [AUB COURSES/TEACHERS GURU](https://www.facebook.com/groups/126553607367124) using a [Facebook Web Scraper](https://github.com/fjg00/Facebook-Group-Post-Scraper) that was developed specifically for this task.
 
 # Implementation Description
 
 ## Assumptions
-This model assumes that all inputs it receives are in the form of formal english sentences. It also assumes that the question asked is covered by the Chatbot's knowledgebase.
+Both models assume that all inputs they receive are in the form of formal english sentences. They also assume that the question asked is covered by the Chatbot's knowledgebase.
 
 ## Preprocessing
 The preprocessing procedure that was followed for the DNN model includes the following:
